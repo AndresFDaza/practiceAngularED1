@@ -2,5 +2,11 @@
 var numeroEstudiantes;
 numeroEstudiantes = 40;
 console.log("Numero de estudiantes: ", numeroEstudiantes);
-var emergency = true;
-console.log("estado crítico: ", emergency);
+var cursoIniciado = true;
+cursoIniciado = false;
+var nombreCurso = "AngularDsd0";
+var contenidoCurso = "\n    Herramientas de desarrollo\n    Introduccion a typescript\n    Introduccion a Angular\n";
+console.log("Nombre del curso: ", nombreCurso);
+console.log("Contenido del curso: ", contenidoCurso);
+var bienvenida = "Bienvenidos al curso " + nombreCurso;
+console.log(bienvenida);
