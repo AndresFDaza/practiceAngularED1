@@ -37,6 +37,7 @@ console.log("primer dia : ",primerDia)
 console.log("primer dia (valor) : " , DiaCurso[primerDia])
 console.log("primer dia (valor) : " , DiaCurso[0])
 
+//no es recomentado
 let unaVariable:any;
 unaVariable = 345345 ;
 unaVariable = "un texto"
@@ -60,6 +61,7 @@ const persona2 = {
 
 console.log("persona 2: " , persona2);
 
+//mutacion del objeto
 persona2.name = "ya no es juan";
 persona2.curso = "ya no codea"
 

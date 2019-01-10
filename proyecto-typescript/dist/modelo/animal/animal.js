@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Animal = /** @class */ (function () {
     //private, public, protected
     function Animal(_nombre) {
@@ -22,3 +23,4 @@ var Animal = /** @class */ (function () {
     });
     return Animal;
 }());
+exports.Animal = Animal;

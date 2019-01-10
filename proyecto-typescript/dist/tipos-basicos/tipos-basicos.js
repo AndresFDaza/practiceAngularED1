@@ -36,6 +36,7 @@ primerDia = DiaCurso.MARTES;
 console.log("primer dia : ", primerDia);
 console.log("primer dia (valor) : ", DiaCurso[primerDia]);
 console.log("primer dia (valor) : ", DiaCurso[0]);
+//no es recomentado
 var unaVariable;
 unaVariable = 345345;
 unaVariable = "un texto";
@@ -53,6 +54,7 @@ var persona2 = {
     curso: "JavaScript"
 };
 console.log("persona 2: ", persona2);
+//mutacion del objeto
 persona2.name = "ya no es juan";
 persona2.curso = "ya no codea";
 console.log("persona 2 nvo", persona2);
