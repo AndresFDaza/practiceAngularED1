@@ -8,7 +8,7 @@ export abstract class Animal {
     }
 
     getNombre():string{
-        return this._nombre
+        return this._nombre;
     }
 
     get nombre():string{
