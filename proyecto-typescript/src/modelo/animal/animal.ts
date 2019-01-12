@@ -12,10 +12,14 @@ export abstract class Animal {
     }
 
     get nombre():string{
-        return this._nombre
+        return this._nombre;
     }
 
     set nombre(nombre:string){
+        if(nombre.length<=3){
+            console.log(`El nombre "${nombre}" es muy corto: ${nombre.length} `);
+            return;
+        }
         this._nombre = nombre;
     }
 

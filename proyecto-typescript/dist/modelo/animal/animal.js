@@ -16,6 +16,10 @@ var Animal = /** @class */ (function () {
             return this._nombre;
         },
         set: function (nombre) {
+            if (nombre.length <= 3) {
+                console.log("El nombre \"" + nombre + "\" es muy corto: " + nombre.length + " ");
+                return;
+            }
             this._nombre = nombre;
         },
         enumerable: true,
